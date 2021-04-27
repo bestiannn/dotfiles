@@ -43,7 +43,7 @@ keys = [
     Key([mod, "control"], "r", lazy.restart()),
 
     Key([mod, "control"], "q", lazy.shutdown()),
-    Key([mod], "r", lazy.spawncmd()),
+    #Key([mod], "r", lazy.spawncmd()),
 
     # ------------ App Configs ------------
 
@@ -98,19 +98,7 @@ layout_conf = {
 
 layouts = [
     layout.MonadTall(**layout_conf),
-    # layout.Tile(**layout_conf),
-    # layout.MonadWide(**layout_conf),
-    # layout.Bsp(),
     layout.Max(),
-    # layout.Zoomy(**layout_conf),
-
-    # layout.Columns(border_focus_stack='#d75f5f'),
-    # Try more layouts by unleashing below layouts.
-    # layout.Stack(num_stacks=3),
-    # layout.Matrix(),
-    # layout.RatioTile(),
-    # layout.TreeTab(),
-    # layout.VerticalTile(),
 ]
 
 widget_defaults = dict(
@@ -188,6 +176,13 @@ screens = [
                     foreground=["#ffffff", "#ffffff"],
                     format="%d/%m/%Y - %H:%M",
                     padding=10
+                ),
+                widget.TextBox(
+                    text="", # Icon: nf-oct-triangle_left
+                    fontsize=17,
+                    padding=10,
+                    foreground=["#ffffff", "#ffffff"],
+                    background=["#2f3542", "#2f3542"],
                 ),
             ],
             24,
