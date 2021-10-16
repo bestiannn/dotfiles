@@ -9,6 +9,7 @@ CFG="$HOME/.config"
 BSP="$HOME/.config/bspwm"
 XRES="$HOME/.Xresources.d"
 
+
 ## Set Style
 set_style () {
 	# apply wallpaper
