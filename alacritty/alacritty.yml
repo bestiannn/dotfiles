@@ -1,43 +1,44 @@
-background_opacity: 0.9
+background_opacity: 0.95
 
-# Colors (Challenger Deep)
 colors:
   # Default colors
   primary:
-    background: '0x1e1c31'
-    foreground: '0xcbe1e7'
-  # Colors the cursor will use if `custom_cursor_colors` is true
-  cursor:
-    text: '0xff271d'
-    cursor: '0xfbfcfc'
+    background: '0x292d3e'
+    foreground: '0xd0d0d0'
+
   # Normal colors
   normal:
-    black:   '0x141228'
-    red:     '0xff5458'
-    green:   '0x62d196'
-    yellow:  '0xffb378'
-    blue:    '0x65b2ff'
-    magenta: '0x906cff'
-    cyan:    '0x63f2f1'
-    white:   '0xa6b3cc'
+    black:   '0x292d3e'
+    red:     '0xf07178'
+    green:   '0xc3e88d'
+    yellow:  '0xffcb6b'
+    blue:    '0x82aaff'
+    magenta: '0xc792ea'
+    cyan:    '0x89ddff'
+    white:   '0xd0d0d0'
+
   # Bright colors
   bright:
-    black:   '0x565575'
-    red:     '0xff8080'
-    green:   '0x95ffa4'
-    yellow:  '0xffe9aa'
-    blue:    '0x91ddff'
-    magenta: '0xc991e1'
-    cyan:    '0xaaffe4'
-    white:   '0xcbe3e7'
+    black:   '0x434758'
+    red:     '0xff8b92'
+    green:   '0xddffa7'
+    yellow:  '0xffe585'
+    blue:    '0x9cc4ff'
+    magenta: '0xe1acff'
+    cyan:    '0xa3f7ff'
+    white:   '0xffffff'
 
 font:
   bold:
-    family: mononoki Nerd Font
+    family: Mononoki Nerd Font
   italic:
-    family: mononoki Nerd Font
+    family: Mononoki Nerd Font
   normal:
-    family: mononoki Nerd Font
+    family: Mononoki Nerd Font
     style: Regular
-  size: 12
+  size: 9
 
+window:
+  padding:
+    x: 5
+    y: 7

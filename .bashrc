@@ -5,8 +5,7 @@
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
 
-alias ls='ls --color=auto'
-PS1='[\u@\h \[\e[36m\]\W\[\e[m\]]\$ '
+# alias ls='ls --color=auto'
+# PS1='[\u@\h \W]\$ '
 
-#my alias
-alias screen='/home/bestian/.config/qtile/monitors.sh'
+export PS1=" \[\e[32m\]\W\[\e[m\]  \[\e[32m\]>\[\e[m\] "
