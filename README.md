@@ -2,6 +2,14 @@
 
 My dotfiles archives in a Artix linux with Runit lol
 
+Start mode:
+
+![App Screenshot](img1.png)
+
+Tiling mode:
+
+![App Screenshot](img2.png)
+
 ## Artix linux Installation
 
 All the information is in the official [Artix Linux Installation Guide](https://wiki.artixlinux.org/Main/Installation).
