@@ -216,7 +216,3 @@ sudo pacman -S xorg lightdm lightdm-gtk-greeter qtile alacritty
 sudo ln -s /etc/runit/sv/lightdm /run/runit/service
 sudo reboot
 ```
-
-```bash
-nano /etc/sudoers
-```
