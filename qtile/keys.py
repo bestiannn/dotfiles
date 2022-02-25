@@ -16,11 +16,18 @@ keys = [
     Key([mod, "control"], "Up", lazy.layout.grow()),
     Key([mod, "control"], "Down", lazy.layout.shrink()),
 
+    # Change window sizes (Bsp)
+    Key([mod, "control"], "Left", lazy.layout.grow_left()),
+    Key([mod, "control"], "Right", lazy.layout.grow_right()),
+
     # Move windows up or down in current stack
     Key([mod, "shift"], "Left", lazy.layout.shuffle_left()),
     Key([mod, "shift"], "Right", lazy.layout.shuffle_right()),
     Key([mod, "shift"], "Down", lazy.layout.shuffle_down()),
     Key([mod, "shift"], "Up", lazy.layout.shuffle_up()),
+
+    # Flip
+    Key([mod], "p", lazy.layout.flip()),
 
     # Toggle between different layouts as defined below
     Key([mod], "Tab", lazy.next_layout()),
@@ -50,6 +57,10 @@ keys = [
 
     # Terminal
     Key([mod], "Return", lazy.spawn("alacritty")),
+
+    # Scrot
+    Key([mod], "s", lazy.spawn("scrot -u")),
+    Key([mod, "shift"], "s", lazy.spawn("scrot -s")),
 
     # ------------ Hardware Configs ------------
 

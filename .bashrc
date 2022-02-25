@@ -8,4 +8,6 @@
 # alias ls='ls --color=auto'
 # PS1='[\u@\h \W]\$ '
 
-export PS1=" \[\e[32m\]\W\[\e[m\]  \[\e[32m\]>\[\e[m\] "
+PS1=' \[\e[0;91m\]愛 \[\e[0m\]\W \[\e[0;96m\]> \[\e[0m\]'
+
+alias clock='sudo sudo ntpd -qg && sudo hwclock --systohc'

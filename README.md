@@ -216,3 +216,7 @@ sudo pacman -S xorg lightdm lightdm-gtk-greeter qtile alacritty
 sudo ln -s /etc/runit/sv/lightdm /run/runit/service
 sudo reboot
 ```
+
+## To be continued...
+
+but just copy the folders in your .config and the .bashrc and .xprofile in home directory
