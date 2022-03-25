@@ -1,6 +1,5 @@
 from libqtile import bar, widget
 from libqtile.config import Screen
-from libqtile.utils import ColorType
 from colors import colors
 
 screens = [
