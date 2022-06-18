@@ -1,0 +1,34 @@
+*background: #1d1f28
+*foreground: #fdfdfd
+
+! Black + DarkGrey
+*color0:  #282a36
+*color8:  #282a36
+
+! DarkRed + Red
+*color1:  #FF5D8F
+*color9:  #FF5D8F
+
+! DarkGreen + Green
+*color2:  #FFACC5
+*color10: #FFACC5
+
+! DarkYellow + Yellow
+*color3:  #FFCAD4
+*color11: #FFCAD4
+
+! DarkBlue + Blue
+*color4:  #FF87AB
+*color12: #FF87AB
+
+! DarkMagenta + Magenta
+*color5:  #FF758F
+*color13: #FF758F
+
+! DarkCyan + Cyan
+*color6:  #FF97B7
+*color14: #FF97B7
+
+! LightGrey + White
+*color7:  #FFF0F3
+*color15: #FFF0F3
