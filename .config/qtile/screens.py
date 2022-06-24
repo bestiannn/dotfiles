@@ -11,7 +11,6 @@ screens = [
             widget.TextBox(text="死", font="Cascadia Code", fontsize=20, foreground=colors["blue"], padding=0),
             widget.Spacer(length=30, background=colors["black"]),
             widget.WindowName(background=colors["black"], foreground=colors["white"], font="Cascadia Code", max_chars=50),
-            widget.Spacer(length=50, background=colors["black"]),
             widget.GroupBox(foreground=colors["black"],
                             background=colors["black"],
                             other_screen_border=colors["black"],
