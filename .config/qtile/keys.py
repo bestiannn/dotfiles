@@ -47,7 +47,7 @@ keys = [
     # Menu
     Key([mod], "m",
         lazy.spawn(".config/rofi/launchers/colorful/launcher.sh")
-        ),
+    ),
 
     # Browser
     Key([mod], "b", lazy.hide_show_bar("all")),
@@ -59,8 +59,8 @@ keys = [
     Key([mod], "Return", lazy.spawn("alacritty")),
 
     # Scrot
-    Key([mod], "s", lazy.spawn("scrot -u")),
-    Key([mod, "shift"], "s", lazy.spawn("scrot -s")),
+    Key([mod], "s", lazy.spawn("scrot Screenshots/%b%d::%H%M%S.png -u")),
+    Key([mod, "shift"], "s", lazy.spawn("scrot Screenshots/%b%d::%H%M%S.png -s")),
 
     # ------------ Hardware Configs ------------
 

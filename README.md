@@ -17,7 +17,7 @@ Tiling mode:
 Oficial repositories
 
 ```bash
-sudo pacman -S lightdm lightdm-gtk-greeter qtile alacritty rofi nitrogen pamixer brightnessctl network-manager-applet thunar glib2 gvfs zsh numlockx ttf-cascadia-code noto-fonts-emoji
+sudo pacman -S lightdm lightdm-gtk-greeter qtile alacritty rofi nitrogen pamixer brightnessctl network-manager-applet thunar xarchiver thunar-archive-plugin glib2 gvfs zsh numlockx ttf-cascadia-code noto-fonts-emoji scrot
 ```
 
 Arch user repositories
