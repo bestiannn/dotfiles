@@ -11,3 +11,20 @@ Tiling mode:
 ![App Screenshot](_img2.png)
 
 ![App Screenshot](_img3.png)
+
+## Packages
+
+Oficial repositories
+
+```bash
+sudo pacman -S lightdm lightdm-gtk-greeter qtile alacritty rofi nitrogen pamixer brightnessctl network-manager-applet thunar glib2 gvfs zsh numlockx ttf-cascadia-code noto-fonts-emoji
+```
+
+Arch user repositories
+```bash
+yay -S picom-jonaburg-git nerd-fonts-mononoki
+```
+
+Github apps
+- [Rofi themes](https://github.com/adi1090x/rofi)
+- [Oh My Zsh](https://github.com/ohmyzsh/ohmyzsh)
