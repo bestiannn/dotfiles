@@ -12,11 +12,15 @@ keys = [
     Key([mod], "Left", lazy.layout.left()),
     Key([mod], "Right", lazy.layout.right()),
 
-    # Change window sizes (MonadTall)
-    Key([mod, "control"], "Up", lazy.layout.grow()),
-    Key([mod, "control"], "Down", lazy.layout.shrink()),
-
-    # Change window sizes (Bsp)
+    # Change window sizes (Bsp and ModalTall)
+    Key([mod, "control"], "Up", 
+        lazy.layout.grow_up(),
+        lazy.layout.grow()
+        ),
+    Key([mod, "control"], "Down", 
+        lazy.layout.grow_down(),
+        lazy.layout.shrink()
+        ),
     Key([mod, "control"], "Left", lazy.layout.grow_left()),
     Key([mod, "control"], "Right", lazy.layout.grow_right()),
 
@@ -49,7 +53,7 @@ keys = [
         lazy.spawn(".config/rofi/launchers/colorful/launcher.sh")
     ),
 
-    # Browser
+    # Bar
     Key([mod], "b", lazy.hide_show_bar("all")),
 
     # File Explorer
@@ -58,7 +62,7 @@ keys = [
     # Terminal
     Key([mod], "Return", lazy.spawn("alacritty")),
 
-    # Scrot
+    # Screenshots - Scrot
     Key([mod], "s", lazy.spawn("scrot Screenshots/%b%d::%H%M%S.png -u")),
     Key([mod, "shift"], "s", lazy.spawn("scrot Screenshots/%b%d::%H%M%S.png -s")),
 
@@ -68,6 +72,11 @@ keys = [
     Key([], "XF86AudioLowerVolume", lazy.spawn("pamixer --decrease 5")),
     Key([], "XF86AudioRaiseVolume", lazy.spawn("pamixer --increase 5")),
     Key([], "XF86AudioMute", lazy.spawn("pamixer --toggle-mute")),
+
+    Key([], "XF86AudioPlay", lazy.spawn("playerctl play-pause")),
+    Key([], "XF86AudioNext", lazy.spawn("playerctl next")),
+    Key([], "XF86AudioPrev", lazy.spawn("playerctl previous")),
+    Key([], "XF86AudioStop", lazy.spawn("playerctl stop")),
 
     # Brightness
     Key([], "XF86MonBrightnessUp", lazy.spawn("brightnessctl set +10%")),
