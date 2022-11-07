@@ -41,7 +41,7 @@ screens = [
             widget.TextBox(text="",
                            fontsize=35,
                            foreground=colors["surface1"],
-                           background=colors["surface0"],
+                           background=colors["base"],
                            padding=0
                            ),
             widget.Systray(padding=15,
