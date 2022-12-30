@@ -32,10 +32,10 @@ keys = [
     Key([mod, "shift"], "Down", lazy.layout.shuffle_down()),
     Key([mod, "shift"], "Up", lazy.layout.shuffle_up()),
 
-    Key([mod], "w", lazy.window.kill()),
-    Key([mod], "bar", lazy.screen.toggle_group()),
+    Key([mod], "bar", lazy.spawn("python .config/qtile/toggle_between_screens.py")),
     Key([mod], "p", lazy.layout.flip()),
     Key([mod], "Tab", lazy.next_layout()),
+    Key([mod], "w", lazy.window.kill()),
     Key([mod, "control"], "r", lazy.restart()),
     Key([mod, "control"], "q", lazy.shutdown()),
     Key([mod], "space", lazy.window.toggle_floating()),
@@ -51,9 +51,10 @@ keys = [
     Key([mod], "e", lazy.spawn("thunar")),
     Key([mod], "Return", lazy.spawn("alacritty")),
     Key([mod], "s", lazy.spawn("mkdir -p Screenshots"),
-        lazy.spawn("scrot -u Screenshots/%Y-%m-%d-%H-%M-%S.png")),
+        lazy.spawn("scrot -u Screenshots/%Y-%m-%d-%H-%M-%S.png")
+        ),
     Key([mod, "shift"], "s", lazy.spawn("mkdir -p Screenshots"),
-        lazy.spawn("scrot -s Screenshots/%Y-%m-%d-%H-%M-%S.png")),
+        lazy.spawn("scrot -s Screenshots/%Y-%m-%d-%H-%M-%S.png --line mode=edge")),
 
     ################
     # SPECIAL KEYS #

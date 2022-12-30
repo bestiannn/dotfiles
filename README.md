@@ -12,7 +12,8 @@ My dotfiles archives lol
 
 # Packages
 
-For the oficial repositories just use pacman and for the Arch User Repositories I will use yay.
+For the oficial repositories just use pacman and for the Arch User Repositories
+I will use yay.
 
 ## Main packages:
 
@@ -58,20 +59,21 @@ sudo systemctl enable ly.service
 
 ## Basic keys:
 
-| Key                      | Action                |
-| ------------------------ | --------------------- |
-| **mod + return**         | launch alacritty      |
-| **mod + arrows**         | select window         |
-| **mod + shift + arrows** | move selected window  |
-| **mod + ctrl + arrows**  | modify size window    |
-| **mod + [1-6]**          | go to workspace [1-6] |
-| **mod + w**              | close window          |
-| **mod + b**              | toggle bar            |
-| **mod + Tab**            | next layout           |
-| **mod + f**              | toggle fullscreen     |
-| **mod + p**              | flip layout           |
-| **mod + ctrl + r**       | restart qtile         |
-| **mod + ctrl + q**       | logout qtile          |
+| Key                      | Action                                                   |
+| ------------------------ | -------------------------------------------------------- |
+| **mod + return**         | launch alacritty                                         |
+| **mod + arrows**         | select window                                            |
+| **mod + shift + arrows** | move selected window                                     |
+| **mod + ctrl + arrows**  | modify size window                                       |
+| **mod + [1-6]**          | go to workspace [1-6]                                    |
+| **mod + w**              | close window                                             |
+| **mod + b**              | toggle bar                                               |
+| **mod + Tab**            | next layout                                              |
+| **mod + f**              | toggle fullscreen                                        |
+| **mod + \|**             | toggle group between screens (only works with 2 screens) |
+| **mod + p**              | flip layout                                              |
+| **mod + ctrl + r**       | restart qtile                                            |
+| **mod + ctrl + q**       | logout qtile                                             |
 
 ## Launch apps keys:
 
