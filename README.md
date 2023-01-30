@@ -1,6 +1,6 @@
 # Dotfiles
 
-My dotfiles archives lol
+My dotfiles archives for my qtile.
 
 ## Start mode:
 
@@ -18,7 +18,21 @@ I will use yay.
 ## Main packages:
 
 ```bash
-sudo pacman -S qtile picom alacritty rofi pavucontrol zsh nitrogen pamixer playerctl brightnessctl network-manager-applet numlockx scrot
+sudo pacman -S qtile alacritty rofi pavucontrol zsh nitrogen pamixer playerctl brightnessctl network-manager-applet numlockx scrot zathura qimgv
+```
+
+## Compositor:
+
+Choose the compositor of your preference.
+
+Picom for basic configuration, best perfomance.
+```bash
+sudo pacman -S picom
+```
+
+Picom of Jonaburg for more configuration and animations, worst performance.
+```bash
+yay -S picom-jonaburg-git
 ```
 
 ## Thunar as file explorer and their plugins/tools:
@@ -36,19 +50,19 @@ sudo pacman -S dunst
 ## Some fonts:
 
 ```bash
-sudo pacman -S ttf-cascadia-code noto-fonts-emoji ttf-roboto-mono-nerd
+sudo pacman -S ttf-cascadia-code noto-fonts-emoji ttf-mononoki-nerd ttf-roboto-mono-nerd
 ```
 
-## Ly as display manager:
+## Lightdm as display manager:
 
 ```bash
-yay -S ly
+yay -S lightdm lightdm-gtk-greeter
 ```
 
 For activate ly on boot use systemctl as sudo.
 
 ```bash
-sudo systemctl enable ly.service
+sudo systemctl enable lightdm.service
 ```
 
 # Qtile keys
@@ -82,7 +96,13 @@ sudo systemctl enable ly.service
 
 # Github apps
 
-- [Rofi themes](https://github.com/adi1090x/rofi)
+Some of the apps I use, the installation is in their README
+
 - [Oh My Zsh](https://github.com/ohmyzsh/ohmyzsh)
-- [NvChad](https://github.com/NvChad/NvChad)
 - [Catppuccin Theme](https://github.com/catppuccin/catppuccin)
+    - Rofi (Basic)
+    - Cursors
+    - GTK
+    - Papirus Folders
+    - Dark Reader
+    - Discord
