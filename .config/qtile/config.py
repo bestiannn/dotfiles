@@ -13,9 +13,3 @@ from settings.layouts import layouts, layout_conf, floating_layout
 def autostart():
     home = os.path.expanduser('~/.config/qtile/autostart.sh')
     subprocess.call([home])
-    # Force the first group to be on the first screen and the second group to be on the second screen
-    qtile.groups_map["1"].cmd_toscreen(0, toggle=False)
-    try:
-        qtile.groups_map["6"].cmd_toscreen(1, toggle=False)
-    except:
-        pass

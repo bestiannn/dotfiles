@@ -47,7 +47,7 @@ keys = [
     #     APPS     #
     ################
 
-    Key([mod], "m", lazy.spawn(".config/rofi/launchers/type-2/launcher.sh")),
+    Key([mod], "m", lazy.spawn("rofi -show drun")),
     Key([mod], "e", lazy.spawn("thunar")),
     Key([mod], "Return", lazy.spawn("alacritty")),
     Key([mod], "s", lazy.spawn("mkdir -p Screenshots"),
