@@ -18,7 +18,7 @@ I will use yay.
 ## Main packages:
 
 ```bash
-sudo pacman -S qtile picom alacritty rofi zsh nitrogen pamixer playerctl brightnessctl network-manager-applet numlockx scrot
+sudo pacman -S qtile picom alacritty rofi pavucontrol zsh nitrogen pamixer playerctl brightnessctl network-manager-applet numlockx scrot
 ```
 
 ## Thunar as file explorer and their plugins/tools:
@@ -36,11 +36,7 @@ sudo pacman -S dunst
 ## Some fonts:
 
 ```bash
-sudo pacman -S ttf-cascadia-code noto-fonts-emoji
-```
-
-```bash
-yay -S nerd-fonts-roboto-mono
+sudo pacman -S ttf-cascadia-code noto-fonts-emoji ttf-roboto-mono-nerd
 ```
 
 ## Ly as display manager:
