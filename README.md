@@ -106,3 +106,4 @@ Some of the apps I use, the installation is in their README
     - Papirus Folders
     - Dark Reader
     - Discord
+- [NvChad](https://nvchad.com/)
