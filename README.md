@@ -18,7 +18,13 @@ I will use yay.
 ## Main packages:
 
 ```bash
-sudo pacman -S qtile alacritty rofi pavucontrol zsh nitrogen pamixer playerctl brightnessctl network-manager-applet numlockx scrot zathura qimgv
+sudo pacman -S qtile alacritty rofi pavucontrol zsh nitrogen pamixer playerctl brightnessctl network-manager-applet numlockx scrot feh
+```
+
+## Some apps
+
+```bash
+yay -S zathura qimgv-git
 ```
 
 ## Compositor:
@@ -63,6 +69,18 @@ For activate ly on boot use systemctl as sudo.
 
 ```bash
 sudo systemctl enable lightdm.service
+```
+
+# Install config
+
+For install the my config files.
+```bash
+git clone https://github.com/bestiannn/dotfiles
+cd dotfiles/
+cd .config/
+#Copy all the folders to your config folder
+#WARINIG: This command will overwrite your others folders
+cp -r * ~/.config/
 ```
 
 # Qtile keys
