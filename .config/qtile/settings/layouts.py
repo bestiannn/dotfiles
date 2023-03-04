@@ -42,5 +42,7 @@ floating_layout = layout.Floating(float_rules=[
     Match(wm_class='android-studio'),
     Match(wm_class='python2.7'),
     Match(wm_class='launcher-4'),
-    Match(wm_class='stacer')
+    Match(wm_class='stacer'),
+    Match(wm_class='VirtualBox Manager'),
+    Match(wm_class='VirtualBox Machine')
 ], **layout_conf)
