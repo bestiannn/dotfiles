@@ -22,9 +22,17 @@ layout_conf_bsp = {
     "ratio": 1.3
 }
 
+layout_conf_max = {
+    "border_normal": colors["base"],
+    "border_focus": colors["lavender"],
+    "border_width": 4,
+    "margin": 7,
+}
+
 layouts = [
     layout.Bsp(**layout_conf_bsp),
-    layout.MonadTall(**layout_conf)
+    layout.MonadTall(**layout_conf),
+    layout.Max(**layout_conf_max)
 ]
 
 floating_layout = layout.Floating(float_rules=[
