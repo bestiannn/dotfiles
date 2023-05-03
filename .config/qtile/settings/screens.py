@@ -60,7 +60,7 @@ screens = [
                            foreground=colors["text"],
                            font="Cascadia Code",
                            fontsize=20,
-                           format=" {percent:2.0%} ",
+                           format="  {percent:2.0%} ",
                            show_short_text=False,
                            low_percentage=0.2,
                            low_foreground = colors["red"],
@@ -69,7 +69,7 @@ screens = [
                                foreground=colors["text"],
                                font="Cascadia Code",
                                fontsize=20,
-                               fmt="墳 {} ",
+                               fmt="󰕾 {} ",
                                mouse_callbacks={
                                    'Button3': lazy.spawn('pavucontrol -t 4')}
                                ),
