@@ -15,6 +15,7 @@ The wallpapers i use
 ![](wallhaven-9mjoy1.png)
 ![](warrior-anime-girl-5k-uo-1920x1080.jpg)
 ![](1107810.jpg)
+![](marioretro.jpg)
 ![](1183168.jpg)
 ![](od_arch.png)
 ![](973129.jpg)
