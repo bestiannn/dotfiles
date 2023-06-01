@@ -2,6 +2,7 @@
 
 The wallpapers i use
 
+![](rage.png)
 ![](lost-in-space_1.png)
 ![](uzboctaz2cma1.png)
 ![](3uwkgbwynida1.jpg)
