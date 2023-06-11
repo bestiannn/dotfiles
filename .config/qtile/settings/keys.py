@@ -54,7 +54,8 @@ keys = [
         lazy.spawn("scrot -u Screenshots/%Y-%m-%d-%H-%M-%S.png")
         ),
     Key([mod, "shift"], "s", lazy.spawn("mkdir -p Screenshots"),
-        lazy.spawn("scrot -s Screenshots/%Y-%m-%d-%H-%M-%S.png --line mode=edge")),
+        lazy.spawn("escrotum -s Screenshots/%Y-%m-%d-%H-%M-%S.png")
+        ),
 
     ################
     # SPECIAL KEYS #

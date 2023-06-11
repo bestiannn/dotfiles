@@ -24,7 +24,7 @@ sudo pacman -S qtile alacritty rofi pavucontrol zsh nitrogen pamixer playerctl b
 ## Some apps
 
 ```bash
-yay -S zathura qimgv-git
+yay -S zathura qimgv-git escrotum-git
 ```
 
 ## Compositor:
