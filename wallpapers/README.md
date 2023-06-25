@@ -25,7 +25,7 @@ The wallpapers i use
 ![](973129.jpg)
 ![](voyager-tophx-panda-cover-fa-samurai-individual.jpg)
 ![](pc-img7crop.jpg)
-![](Kitai Avenue.png)
+![](Kitai-Avenue.png)
 ![](zaonaosxfnq81.jpg)
 ![](FIpxSwxaQAkpsQH.jpeg)
 ![](AmCGzkL.png)
