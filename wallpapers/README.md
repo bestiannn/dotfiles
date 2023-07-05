@@ -2,8 +2,8 @@
 
 The wallpapers i use
 
-![](rage.png)
 ![](RkIMb5f4_2x.jpg)
+![](99316117_p0.jpg)
 ![](lost-in-space_1.png)
 ![](uzboctaz2cma1.png)
 ![](3uwkgbwynida1.jpg)
@@ -12,12 +12,12 @@ The wallpapers i use
 ![](spooky_spill.jpg)
 ![](398400.jpg)
 ![](eyes.png)
+![](101589614_p0.jpg)
 ![](l9ne5e1j9sia1.jpg)
 ![](wallpaperbetter.com_1920x1080.jpg)
 ![](38da7503a41751b5ffcf1c52b84c4289.jpg)
 ![](wallhaven-9mjoy1.png)
 ![](skull.png)
-![](Tokyo-Nightmare.png)
 ![](warrior-anime-girl-5k-uo-1920x1080.jpg)
 ![](1107810.jpg)
 ![](marioretro.jpg)
