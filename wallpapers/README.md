@@ -22,6 +22,7 @@ The wallpapers i use
 ![](1107810.jpg)
 ![](marioretro.jpg)
 ![](1183168.jpg)
+![](109779066_p0.png)
 ![](od_arch.png)
 ![](973129.jpg)
 ![](voyager-tophx-panda-cover-fa-samurai-individual.jpg)
@@ -31,4 +32,3 @@ The wallpapers i use
 ![](FIpxSwxaQAkpsQH.jpeg)
 ![](AmCGzkL.png)
 ![](90776365_p0.jpg)
-![](F0bfphraEAALARY.jpeg)
