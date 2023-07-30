@@ -83,6 +83,13 @@ cd .config/
 cp -r * ~/.config/
 ```
 
+# Auto install packages
+
+For install all the packages before named, use:
+```bash
+sh install-packages.sh
+```
+
 # Qtile keys
 
 ## Basic keys:
